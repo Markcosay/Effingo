@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Universal Content Copier",
+  "version": "1.1",
+  "description": "Copy text from any website — even when copy is disabled!",
+  "permissions": ["activeTab", "scripting", "clipboardWrite"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Copy any element's text"
+  },
+  "icons": {
+    "128": "icon128.png"
+  }
+}
